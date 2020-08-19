@@ -1,0 +1,64 @@
+.container {
+  width:1000px;
+}
+
+.header-title-area {
+  margin:30px auto;
+  }
+
+.header-title-area h2 {
+  text-align:center;
+  font-weight:normal;
+}
+
+.navigation-area {
+  background-color:black; 
+}
+
+.header-navigation li {
+  float:left;
+  margin:15px 20px;
+  list-style:none;
+  
+  }
+  
+.header-navigation a {
+  text-decoration:none;
+  color:white;
+}
+
+.header-navigation:after {
+  clear:both;
+  display:block;
+  content:"";
+}
+
+.left-container {
+  float:left;
+  width:650;
+  margin-right:20PX;
+}
+
+.right-container {
+  float:right;
+  width:300;
+}
+
+.new-blog {
+  margin-bottom:20px;
+}
+
+.blog-image {
+  width:200px;
+}
+
+
+.right-blog-content {
+  float:right;
+}
+
+.new-blog:after {
+  clear:both;
+  display:block;
+  content:" ";
+}
