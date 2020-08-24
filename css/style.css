@@ -35,21 +35,19 @@
 
 .left-container {
   float:left;
-  width:650;
+  width:600;
   margin-right:20PX;
 }
 
-.right-container {
-  float:right;
-  width:300;
-}
 
 .new-blog {
   margin-bottom:20px;
 }
 
-.blog-image {
+.left-blog-image {
   width:200px;
+  padding-left:40px;
+  padding-right:20px;
 }
 
 
@@ -57,8 +55,45 @@
   float:right;
 }
 
-.new-blog:after {
+.left-blog-date{
+  font-size:12px;
+}
+
+.left-blog-content{
+  font-size:10px;
+}
+
+.right-container {
+  float:right;
+  width:300;
+}
+
+.right-content-title {
+  border-bottom: 2px solid #c0c0c0;
+}
+
+.right-blog-image {
+  width:65px;
+  padding-right:5px;
+}
+
+.right-blog-date{
+  font-size:10px;
+}
+
+.right-blog-title {
+  font-size:12px;
+}
+
+.main:after {
   clear:both;
   display:block;
-  content:" ";
+  content:"";
+}
+
+footer {
+  font-size:10px;
+  text-align:center;
+  border-top:2px solid #c0c0c0;
+  padding-top:10px;
 }
