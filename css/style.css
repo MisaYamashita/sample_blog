@@ -1,5 +1,6 @@
 .container {
   width:1000px;
+  margin:0 auto;
 }
 
 .header-title-area {
@@ -92,6 +93,8 @@
 }
 
 footer {
+  width:1000px;
+  margin: 30px auto;
   font-size:10px;
   text-align:center;
   border-top:2px solid #c0c0c0;
